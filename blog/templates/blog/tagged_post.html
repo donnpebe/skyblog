@@ -1,0 +1,13 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+
+<h2>Showing posts tagged "{{ tag }}"</h2>
+
+{% for post in posts %}
+
+<p>{{ post.created|date:"Y-m-d" }}: <a href="/blog/{{ post.id }}">{{ post.title }}</a></p>
+
+{% endfor %}
+
+{% endblock %}

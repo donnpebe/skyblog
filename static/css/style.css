@@ -1,0 +1,31 @@
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+    font-size: 16px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.branding, .branding a {
+    color: #999;
+}
+.hr-separator {
+    margin: 15px 0;
+}
+.tagline_container {
+    margin: 40px 0;
+    text-align: center;
+}
+.tagline_container h1 {
+    font-size: 72px;
+    line-height: 1;
+}
+.post-meta {
+    font-size: 15px;
+    margin-bottom:20px;
+    color: #999;
+}
+
+.tags {
+    color: #999;
+    font-size: 15px;
+}
